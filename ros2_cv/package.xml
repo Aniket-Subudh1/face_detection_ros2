@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_cv</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package integrating OpenCV for computer vision tasks.</description>
+  <maintainer email="ogunsdavis53@gmail.com">magnum</maintainer>
+  <license>Apache 2.0</license> <!-- Replace with your actual license -->
+
+  <!-- ROS 2 and Python dependencies -->
+  <depend>rclpy</depend>
+  <depend>opencv-python</depend> <!-- Add this if you're using OpenCV in Python -->
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
