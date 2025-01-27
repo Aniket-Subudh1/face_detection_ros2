@@ -1,0 +1,15 @@
+# Ignore test, build, log, resource, and install directories
+/test/
+/build/
+/log/
+/resource/
+/install/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore package metadata files
+*.egg-info/
+dist/

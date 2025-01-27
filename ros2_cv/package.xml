@@ -4,7 +4,7 @@
   <name>ros2_cv</name>
   <version>0.0.0</version>
   <description>A ROS 2 package integrating OpenCV for computer vision tasks.</description>
-  <maintainer email="ogunsdavis53@gmail.com">magnum</maintainer>
+  <maintainer email="aniketsubudhi00@gmail.com">Aniket Subudhi</maintainer>
   <license>Apache 2.0</license> <!-- Replace with your actual license -->
 
   <!-- ROS 2 and Python dependencies -->
